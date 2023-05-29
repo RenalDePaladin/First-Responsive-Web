@@ -1,0 +1,144 @@
+body {
+  box-sizing: border-box;
+}
+
+/* Style bg */
+
+.bg-color {
+  background-color: rgb(110, 203, 245);
+  width: 100%;
+  height: 50vh;
+}
+
+/* End bg */
+
+/* Style Flex */
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* End Flex */
+
+/* Style Container */
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  max-width: 61.25em;
+  width: 100%;
+  background-color: white;
+  text-transform: uppercase;
+  border-radius: 2.5em;
+  box-shadow: 0 0.1875em 0.75em rgba(0, 0, 0, 0.3);
+}
+
+/* End Style Container */
+
+/* Style Pricing */
+
+.pricing-type1 {
+}
+
+img {
+  border-radius: 50%;
+  /* box-shadow: 0px 0px 8px rgba(0, 0, 0, .3); */
+  position: relative;
+  bottom: 5em;
+}
+
+.pricing-container div {
+  margin: 6.875em 3.4375em;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.0625em;
+  font-size: 14px;
+}
+
+.pricing-container div ul {
+  position: relative;
+  top: 0.625em;
+}
+
+.pricing-container h1 {
+  font-size: 22px;
+  position: relative;
+  bottom: 45px;
+  color: rgb(10, 177, 255);
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
+}
+
+.pricing-container ul li:nth-child(3) {
+  font-size: 28px;
+  color: rgb(7, 130, 187);
+  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
+}
+
+.pricing-container ul li:nth-child(1) {
+  width: 200px;
+  padding: 8px 0 8px 0;
+  border-bottom: 1px solid rgba(25, 25, 112, 0.3);
+}
+
+.pricing-container ul li:nth-child(2) {
+  width: 200px;
+  padding: 8px 0 8px 0;
+  border-bottom: 1px solid rgba(25, 25, 112, 0.3);
+}
+
+.pricing-container div ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 26vh;
+  justify-content: space-between;
+}
+
+.pricing-container ul li button {
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  display: inline-block;
+  min-height: 40px;
+  height: 100%;
+  min-width: 140px;
+  width: 100%;
+  text-decoration: none;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.9);
+  border: 1px solid rgb(25, 25, 112);
+}
+
+.pricing-container button:hover,
+button:focus {
+  background-color: rgb(65, 105, 225);
+  color: white;
+  transition: 0.2s;
+}
+
+.pricing-container div.pricing-type2 ul li button {
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  display: inline-block;
+  min-height: 40px;
+  height: 100%;
+  min-width: 140px;
+  width: 100%;
+  text-decoration: none;
+  background-color: rgb(65, 105, 225);
+  color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgb(25, 25, 112);
+}
+
+.pricing-container .pricing-type2 button:hover,
+button:focus {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  transition: 0.2s;
+}
+/* End Pricing */
