@@ -19,7 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100vmin;
 }
 
 /* End Flex */
@@ -165,7 +165,7 @@ button:focus {
   }
 
   .pricing {
-    height: 290vh;
+    height: 290vmax;
     display: flex;
     justify-content: center;
     align-items: center;
